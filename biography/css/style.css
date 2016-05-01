@@ -11,6 +11,7 @@ img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
+    width: 275px;
 }
 
 h2 {
@@ -19,44 +20,32 @@ h2 {
 }
 
 p {
-  padding: 2% 4% 0% 4%;
+  padding: 10px 0 10px 30px;
   line-height: 1.5;
   text-align: justify;
-  word-spacing: 0.1ex;
 }
 
 ul {
-  padding: 5% 0 2% 14%;
+  padding: 10px 0 15px 50px;
   line-height: 1.5;
 }
 
 .wrapper {
-  width: 38%;
+  width: 520px;
   margin: 0 auto;
   padding: 4px 0 50px 0;
 }
 
 .content {
-  width: 100%;
+  width: 400px;
   background-color: white;
-  padding-bottom: 70px;
+  padding: 10px 50px 50px 50px;
 }
 
 
 .line {
  border-bottom: 1px solid black;
- margin-bottom: 20px;
- padding: 12px 10px 10px 12px;
- width: 80%;
- margin: 0 auto;
  border-color: #7b7b7b;
-}
-
-.noline {
-  margin-bottom: 20px;
-  padding: 12px 10px 10px 12px;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .center {
