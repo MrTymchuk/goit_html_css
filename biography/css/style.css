@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #efefef repeat-x top;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 50px 0 20px 0;
+}
+
+p {
+  padding: 2% 4% 0% 4%;
+  line-height: 1.5;
+  text-align: justify;
+  word-spacing: 0.1ex;
+}
+
+ul {
+  padding: 5% 0 2% 14%;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 38%;
+  margin: 0 auto;
+  padding: 4px 0 50px 0;
+}
+
+.content {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 70px;
+}
+
+
+.line {
+ border-bottom: 1px solid black;
+ margin-bottom: 20px;
+ padding: 12px 10px 10px 12px;
+ width: 80%;
+ margin: 0 auto;
+ border-color: #7b7b7b;
+}
+
+.noline {
+  margin-bottom: 20px;
+  padding: 12px 10px 10px 12px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+}
