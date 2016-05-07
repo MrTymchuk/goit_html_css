@@ -47,7 +47,7 @@ ul {
  border-color: #7b7b7b;
 }
 
-.autor {
+.block_autor {
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ padding-top: 15px;
 padding-top: 43px;
 }
 
-.feadback {
+.text {
 margin-top: -25px;
 }
 .shadow {
