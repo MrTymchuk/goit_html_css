@@ -9,37 +9,36 @@ body {
 
 img {
     border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    border-radius: 10px;
     width: 275px;
 }
 
 h2 {
   font-size: 20px;
-  padding: 50px 0 20px 0;
+  padding: 54px 0 25px 0;
 }
 
 p {
-  padding: 10px 0 10px 30px;
-  line-height: 1.5;
+  padding: 10px 0 10px 25px;
+  line-height: 30px;
   text-align: justify;
 }
 
 ul {
   padding: 10px 0 15px 50px;
-  line-height: 1.5;
+  line-height: 30px;
 }
 
 .wrapper {
   width: 520px;
   margin: 0 auto;
-  padding: 4px 0 50px 0;
+  padding: 4px 0 42px 0;
 }
 
 .content {
   width: 400px;
   background-color: white;
-  padding: 10px 50px 50px 50px;
+  padding: 10px 40px 68px 40px;
 }
 
 
@@ -48,10 +47,29 @@ ul {
  border-color: #7b7b7b;
 }
 
-.center {
+.autor {
   text-align: center;
 }
 
+.block_student {
+padding-top: 15px;
+}
+
+.block_frontend {
+padding-top: 15px;
+}
+
+.block_contact {
+padding-top: 15px;
+}
+
+.block_feadback {
+padding-top: 43px;
+}
+
+.feadback {
+margin-top: -25px;
+}
 .shadow {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
