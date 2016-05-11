@@ -62,20 +62,16 @@ ul {
   padding-top: 15px;
 }
 
-.block_contact p {
+.topic {
   padding-bottom: 0;
 }
 
-.text {
+.text{
   padding-top: 0;
+  padding-bottom: 10px;
 }
-
 .block_feadback {
  padding-top: 15px;
-}
-
-.block_feadback p {
- padding-bottom: 0;
 }
 
 .shadow {
