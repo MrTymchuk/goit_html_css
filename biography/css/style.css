@@ -36,15 +36,14 @@ ul {
 }
 
 .content {
-  width: 400px;
   background-color: white;
   padding: 10px 40px 68px 40px;
 }
 
 
 .line {
- border-bottom: 1px solid black;
- border-color: #7b7b7b;
+  border-bottom: 1px solid black;
+  border-color: #7b7b7b;
 }
 
 .block_autor {
@@ -52,24 +51,33 @@ ul {
 }
 
 .block_student {
-padding-top: 0;
+  padding-top: 15px;
 }
 
 .block_frontend {
-padding-top: 15px;
+  padding-top: 15px;
 }
 
 .block_contact {
-padding-top: 15px;
+  padding-top: 15px;
 }
 
-.block_feadback {
-padding-top: 43px;
+.block_contact p {
+  padding-bottom: 0;
 }
 
 .text {
-margin-top: -25px;
+  padding-top: 0;
 }
+
+.block_feadback {
+ padding-top: 15px;
+}
+
+.block_feadback p {
+ padding-bottom: 0;
+}
+
 .shadow {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
