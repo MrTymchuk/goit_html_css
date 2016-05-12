@@ -69,7 +69,7 @@ ul li:focus {
 
 .conteiner {
   padding-top:40px;
-  height: 620px;
+  width: 680px;
 }
 .left {
   float: left;
