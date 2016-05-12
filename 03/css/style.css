@@ -69,12 +69,18 @@ ul li:focus {
 
 .conteiner {
   padding-top:40px;
+  height: 620px;
 }
 .left {
-  width: 200px;
   float: left;
+  width: 242px;
 }
 
+content  {
+  float: left;
+  width: 610px;
+  padding-left: 43px;
+}
 .left_menu a {
   text-decoration: none;
   color: #656363;
@@ -120,10 +126,6 @@ ul li:focus {
 .silver2 {
   color: #656363;
 }
-section {
-  margin-left: 285px;
-  margin-bottom: 40px;
-}
 
 .text {
   padding: 0 35px 50px 10px;
@@ -154,23 +156,28 @@ footer {
 .footer_links {
   float:left;
 }
-.footer_links a {
+
+.footer_links_inline {
+display: inline-block;
+}
+
+.footer_links_inline a {
   text-decoration: none;
   color: #656363;
 }
 
-.footer_links a:hover,
-.footer_links a:focus {
+.footer_links_inline a:hover,
+.footer_links_inline a:focus {
   text-decoration: underline;
 }
 
-.footer_links ul li {
+.footer_links_inline ul li {
   background: none;
   border: none;
 }
 
-.footer_links:hover,
-.footer_links:focus {
+.footer_links_inline:hover,
+.footer_links_inline:focus {
   background: none;
   border: none;
 }
@@ -181,6 +188,11 @@ footer {
   font-size: 13.33px;
   padding: 10px 20px 10px 20px;
 }
+
+.silver {
+ color: #2c2c2c;
+}
+
 
 .silver {
  color: #2c2c2c;
