@@ -69,7 +69,6 @@ ul li:focus {
 
 .conteiner {
   padding-top:40px;
-  width: 680px;
 }
 .left {
   float: left;
@@ -147,6 +146,7 @@ p {
 /* FOOTER */
 
 footer {
+  clear: both;
   height: 40px;
   background: #e1e1e1;
   font-size: 13.33px;
