@@ -38,7 +38,7 @@ header {
 
 .contact {
   float: right;
-  padding: 10px 35px 0 0;
+  padding: 8px 35px 0 0;
 }
 
 .contry {
@@ -91,11 +91,13 @@ header {
   font-weight: bold;
   color: #128aa7;
   font-size: 12px;
+  line-height: 24px;
 }
 
 .contact p {
   color: #128aa7;
   font-size: 12px;
+  line-height: 16px;
 }
 
  h3 {
