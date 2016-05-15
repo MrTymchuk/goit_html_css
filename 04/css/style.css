@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Tahoma", "Arial", sans-serif;
+}
+
+.wrapper {
+  padding: 36px 0 36px 0;
+  background: url("../img/background.jpg"), linear-gradient(#40c4d2, #0c739f) no-repeat top center  #1297b8;
+  background-attachment: fixed;
+}
+.main {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: white;
+  border-bottom: 3px solid rgba(0,0,0,0.96);
+  -webkit-box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.75);
+}
+
+/* HEADER */
+header {
+  position: relative;
+}
+.logo {
+  height: 177px;
+}
+
+.logo img {
+ padding: 18px 0 0 30px;
+}
+
+.contact {
+  float: right;
+  padding: 10px 35px 0 0;
+}
+
+.contry {
+  padding: 100px 30px 0 640px;
+  position: absolute;
+}
+
+.contry a {
+  color: #128aa7;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.contry_img {
+  width: 42px;
+  height: 42px;
+}
+
+.india {
+  padding: 45px 0 10px 6px;
+  background: url("../img/country/india.png") no-repeat;
+}
+
+.nepal {
+  padding: 45px 0 10px 8px;
+  background: url("../img/country/nepal.png") no-repeat;
+}
+
+.tibet {
+  padding: 45px 0 10px 8px;
+  background: url("../img/country/tibet.png") no-repeat;
+}
+
+.bhutan {
+  padding: 45px 0 10px 8px;
+  background: url("../img/country/bhutan.png") no-repeat;
+}
+
+.sri-lanka {
+  width: 60px;
+  padding: 45px 0 10px 0;
+  background: url("../img/country/sri-lanka.png") no-repeat;
+}
+
+.maldives {
+  padding: 45px 0 10px 0;
+  background: url("../img/country/maldives.png") no-repeat;
+}
+
+.contact h4 {
+  font-weight: bold;
+  color: #128aa7;
+  font-size: 12px;
+}
+
+.contact p {
+  color: #128aa7;
+  font-size: 12px;
+}
+
+ h3 {
+  position: absolute;
+  color: #128aa7;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 115px 0 0 100px;
+}
+
+.header_logo {
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #128aa7;
+  background: url("../img/header_logo.jpg") no-repeat;
+  height: 238px;
+}
+
+.header_menu {
+  background: #373737;
+  background: linear-gradient(to top, #373737, #313131);
+  height: 28px;
+  border-bottom: 1px solid black;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.80);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.80);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.80);
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 60px;
+    padding: 5px 0 5px 0;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 29px;
+    left: 50px;
+    background-color: white;
+    -webkit-box-shadow: 1px 5px 11px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 11px -2px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 11px -2px rgba(0,0,0,0.75);
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.menu i {
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #424c43;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  color: #424c43;
+}
+
+/* CONTENT */
+
+section p {
+  padding: 0 25px 15px 15px;
+  line-height: 22px;
+}
+
+section h2 {
+  padding: 5px 0 5px 0;
+}
+
+.left {
+  float: left;
+  background-color: #edeef0;
+  width: 205px;
+  border-right: 1px solid #c7cacf;
+  height: 510px;
+}
+
+.right {
+  float: right;
+  background-color: #edeef0;
+  width: 205px;
+  border-left: 1px solid #c7cacf;
+  height: 510px;
+}
+
+.content {
+  padding: 1px 20px 20px 20px;
+  float: left;
+}
+
+.clearfix:after {
+  content: ' ';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* FOOTER */
+footer {
+padding-top: 8px;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
