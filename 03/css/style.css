@@ -144,9 +144,15 @@ p {
 }
 
 /* FOOTER */
+.clearfix:after {
+  content: ' ';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
 
 footer {
-  clear: both;
   height: 40px;
   background: #e1e1e1;
   font-size: 13.33px;
