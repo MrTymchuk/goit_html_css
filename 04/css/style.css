@@ -26,24 +26,44 @@ body {
 
 /* HEADER */
 header {
-  position: relative;
+  height: 177px;
 }
 .logo {
-  height: 177px;
+  float: left;
 }
 
 .logo img {
+ position: relative;
  padding: 18px 0 0 30px;
 }
 
-.contact {
+h3 {
+ position: absolute;
+ color: #128aa7;
+ font-size: 12px;
+ font-weight: 500;
+ padding: 110px 0 0 100px;
+}
+
+.info {
   float: right;
-  padding: 8px 35px 0 0;
+}
+.contact {
+  padding: 5px 0 10px 210px;
 }
 
 .contry {
-  padding: 110px 30px 0 640px;
-  position: absolute;
+ padding: 25px 40px 0px 0px;
+}
+
+.contry ul li {
+  display: inline-block;
+}
+
+.contry ul li a:hover,
+.contry ul li a:focus {
+  color: #0e6074;
+  text-decoration: none;
 }
 
 .contry a {
@@ -100,14 +120,6 @@ header {
   line-height: 16px;
 }
 
- h3 {
-  position: absolute;
-  color: #128aa7;
-  font-size: 12px;
-  font-weight: 500;
-  padding: 115px 0 0 100px;
-}
-
 .header_logo {
   border-top: 1px solid #128aa7;
   border-bottom: 1px solid #128aa7;
@@ -141,6 +153,11 @@ ul.menu > li {
     float: left;
     position: relative;
 }
+ul.menu li:hover,
+ul.menu li:focus, {
+background-color: none;
+}
+
 ul.menu > li > a {
     display: block;
     font-size: 14px;
@@ -150,6 +167,9 @@ ul.menu > li > a {
     vertical-align: middle;
     text-decoration: none;
     color: white;
+}
+ul.menu > li > a:hover {
+    color: #c1c1c1;
 }
 
 ul.submenu {
