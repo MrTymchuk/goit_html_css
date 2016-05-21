@@ -35,10 +35,29 @@ header {
   color: #FFF;
 }
 
+.menu ul li  {
+  display: inline-block;
+  padding: 0 40px;
+  list-style-type: none;
+  line-height: 40px;
+  font-size: 13.33px;
+  vertical-align:middle;
+}
+
+.menu ul li:hover,
+.menu ul li:focus {
+  background: #2e2e2e; /* Для старых браузров */
+  background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  border-top: none;
+  line-height: 38px;
+  padding: 0 39px;
+}
+
 ul li  {
   display: inline-block;
   padding: 10px 20px 10px 20px;
-  margin-right: 45px;
   list-style-type: none;
   line-height: 18px;
   font-size: 13.33px;
@@ -69,6 +88,7 @@ ul li:focus {
 
 .conteiner {
   padding-top:40px;
+  height: 620px;
 }
 .left {
   float: left;
@@ -77,7 +97,7 @@ ul li:focus {
 
 content  {
   float: left;
-  width: 680px;
+  width: 610px;
   padding-left: 43px;
 }
 .left_menu a {
@@ -127,7 +147,7 @@ content  {
 }
 
 .text {
-  padding: 40px 35px 50px 10px;
+  padding: 0 35px 50px 10px;
 }
 .top {
   padding: 50px 0 0 90px;
@@ -144,11 +164,22 @@ p {
 }
 
 /* FOOTER */
+
 footer {
   height: 40px;
   background: #e1e1e1;
   font-size: 13.33px;
   vertical-align: top;
+}
+
+footer ul li  {
+  display: inline-block;
+  padding: 0 40px;
+  list-style-type: none;
+  line-height: 40px;
+  font-size: 13.33px;
+  vertical-align:middle;
+}
 }
 
 .footer_links {
@@ -184,17 +215,9 @@ display: inline-block;
   float:right;
   color: #2c2c2c;
   font-size: 13.33px;
-  padding: 10px 20px 10px 20px;
+  padding-right: 40px;
 }
 
 .silver {
  color: #2c2c2c;
-}
-
-.clearfix:after {
-  content: ' ';
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
 }
