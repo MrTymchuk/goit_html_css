@@ -445,7 +445,7 @@ label select{
 
 .search-by-tire .checkbox{
   width: 150px;
-  margin: 3px 0 -8px 21px;
+  margin: 3px 0 -8px 23px;
 }
 
 .search-by-tire .checkbox input{
@@ -628,6 +628,9 @@ label select{
   color: #0c3256;
 }
 
+.content {
+}
+
 .goods{
   border-radius: 3px;
   background-image: linear-gradient( to bottom, #e5e7e8, #93a7b0);
@@ -643,7 +646,7 @@ label select{
   float: left;
 }
 
-.product figcaption{
+.product p{
   font-size: 15px;
   font-weight: bold;
   line-height: 14px;
