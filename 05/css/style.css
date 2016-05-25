@@ -40,7 +40,11 @@ body{
     line-height: 1.4;
     color: #fff;
     background-color: #000;
-    background: url(../img/bg_head.jpg) no-repeat top center  #1297b8;
+    background: url(../img/bg_head.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: center;
     width: 100%;
     }
